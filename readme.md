@@ -8,45 +8,14 @@ Regular Expressions can be used for Url-splitting and their results for the redi
 ### Configuration (Backend)
 
 #### Target
-<table>
-	<thead>
-		<tr>
-			<th>Setting</th>
-			<th>Value</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>URL</td>
-			<td>be-(.*)</td>
-		</tr>
-		<tr>
-			<td>Regexp</td>
-			<td>true</td>
-		</tr>
-	</tbody>
-</table>
+URL: be-(.*)
+
+Regexp: true
 
 #### Redirect settings
+Redirect Url: $1
 
-<table>
-	<thead>
-		<tr>
-			<th>Setting</th>
-			<th>Value</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Redirect Url</td>
-			<td>$1</td>
-		</tr>
-		<tr>
-			<td>Countries</td>
-			<td>be</td>
-		</tr>
-	</tbody>
-</table>
+Countries: be
 
 ### Result
 
