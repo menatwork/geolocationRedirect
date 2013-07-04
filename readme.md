@@ -9,10 +9,12 @@ Regular Expressions can be used for Url-splitting and their results for the redi
 
 #### Target
 URL: be-(.*)
+
 Regexp: true
 
 #### Redirect settings
 Redirect Url: $1
+
 Countries: be
 
 ### Result
