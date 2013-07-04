@@ -61,7 +61,7 @@ class PageError404_GeolocationRedirect extends PageError404
             // replace regex-params
             if ($objTarget->rgxp == '1' && preg_match("~{$objTarget->url}~i", $strUrl))
             {
-                $arrErg = preg_split("~{$objTarget->url}~i", $strUrl, 2);
+                preg_match("~{$objTarget->url}~i", $strUrl, $arrErg);
 
                 foreach ($arrErg as $i => $param)
                 {
