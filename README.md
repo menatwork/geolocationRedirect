@@ -1,7 +1,7 @@
 Geolocation Redirect - English
 ==============================
 
-This extensions matches an url pattern and redirects to an internal or external page after setting the configured contry information for the geolocation container. Regular expressions can be used for URL splitting and their results for the redirects.
+geolocationRedirect matches an url pattern and redirects to internal or external pages after setting the configured contry information (geolocation). Regular expressions can be used for URL splitting and their results for the redirects.
 
 ### Settings
 
@@ -97,8 +97,7 @@ The first option redirects to an internal page, which can be selected with a pag
 Geolocation Redirect - Deutsch
 ==============================
 
-Diese Erweiterung wertet URL-Muster aus und leitet auf eine internen oder externen Seite weiter und setzt dabei die eingestellten Länderinformationen für Geolocation. Reguläre Ausdrücke können für die URL-Auswertung und die Redirects verwendet werden.
-
+geolocationRedirect wertet URL-Muster aus und leitet auf interne oder externe Seiten weiter und setzt dabei die eingestellten Länderinformationen (Geolocation). Reguläre Ausdrücke können für die URL-Auswertung und die Redirects verwendet werden.
 
 ### Einstellungen
 
@@ -111,8 +110,8 @@ Mit dieser Einstellungen werden alle GET Parameter, die mit "?key=value" an der 
 
 Es gibt zwei Arten der Weiterleitungen. Diese können unter Targettyp ausgewählt werden.
 
-* Internal redirect
-* External redirect
+* Interne Weiterleitung
+* Externe Weiterleitung
 
 Die erste erlaubt es direkt eine Seite auszuwählen. Die zweite Option hingegen erlaubt es externe Seiten aufzurufen, bzw. mit Platzhaltern zu arbeiten.
 
