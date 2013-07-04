@@ -10,6 +10,6 @@
  * @filesource
  */
 
-$GLOBALS['TL_LANG']['tl_settings']['geolocation_redirect_kill_query_str'] = array('Kill Query-String','Deletes the Query-String from the url, everything behind the "?"');
+$GLOBALS['TL_LANG']['tl_settings']['geolocationRedirectKillQueryStr'] = array('Kill Query-String','Deletes the Query-String from the url, everything behind the "?"');
 
 ?>
