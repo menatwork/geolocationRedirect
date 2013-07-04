@@ -10,6 +10,6 @@
  * @filesource
  */
 
-$GLOBALS['TL_LANG']['MOD']['geolocation_redirect'] = array('Geolocation Redirects', 'Redirects of given URLs to internal pages.');
+$GLOBALS['TL_LANG']['MOD']['geolocation_redirect'] = array('Geolocation Redirects', 'Redirects of given URLs and sets the users country.');
 
 ?>
