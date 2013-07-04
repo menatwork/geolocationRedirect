@@ -129,7 +129,7 @@ class PageError404_GeolocationRedirect extends PageError404
             $strUrl = (strpos($strUrl, '?') === false) ? $strUrl : substr($strUrl, 0, strpos($strUrl, '?'));
         }
 
-        // Kill trialing /.
+        // Kill trailing /.
         if (substr($strUrl, -1) == '/')
         {
             $strUrl = substr($strUrl, 0, -1);
