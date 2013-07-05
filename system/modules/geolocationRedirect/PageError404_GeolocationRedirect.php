@@ -39,7 +39,7 @@ class PageError404_GeolocationRedirect extends PageError404
                     WHERE published=?
                         AND ( (rgxp="" AND url=?) OR (rgxp="1" AND ? REGEXP url) )
                         AND ( host=? OR CONCAT("www.",host)=? OR host="" )
-                    ORDER BY url, priority';
+                    ORDER BY priority, url';
 
         $objTarget = Database::getInstance()
                 ->prepare($strSQL)
