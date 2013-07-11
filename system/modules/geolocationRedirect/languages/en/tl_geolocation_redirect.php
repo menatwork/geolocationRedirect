@@ -51,5 +51,5 @@ $GLOBALS['TL_LANG']['tl_content']['tl_geolocation_redirect']['tl_redirectTypes']
 $GLOBALS['TL_LANG']['tl_content']['tl_geolocation_redirect']['tl_redirectTypes']['jumpToUrl'] = 'External redirection';
 $GLOBALS['TL_LANG']['tl_geolocation_redirect']['typeOptions']                                 = array(
     '301' => 'Permanent (301)',
-    '307' => 'Temporaray (307)',
+    '307' => 'Temporary (307)',
 );
