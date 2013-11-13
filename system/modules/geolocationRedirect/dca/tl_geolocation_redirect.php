@@ -1,8 +1,5 @@
 <?php
 
-if (!defined('TL_ROOT'))
-    die('You can not access this file directly!');
-
 /**
  * Geolocation Redirect
  * 
@@ -355,5 +352,3 @@ class tl_geolocation_redirect extends Controller
     }
 
 }
-
-?>

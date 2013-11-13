@@ -1,4 +1,4 @@
-<?php if (!defined('TL_ROOT')) die('You can not access this file directly!');
+<?php
 
 /**
  * Geolocation Redirect
@@ -12,5 +12,3 @@
 
 $GLOBALS['TL_LANG']['tl_settings']['geolocationRedirect_legend']      = 'Standort Weiterleitungen';
 $GLOBALS['TL_LANG']['tl_settings']['geolocationRedirectKillQueryStr'] = array('Query-String löschen','Lösch die Anfragewerte hinter dem Query-String. Somit alles hinter dem "?"');
-
-?>

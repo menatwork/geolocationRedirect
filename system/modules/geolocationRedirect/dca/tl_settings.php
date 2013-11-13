@@ -1,4 +1,4 @@
-<?php if (!defined('TL_ROOT')) die('You can not access this file directly!');
+<?php
 
 /**
  * Geolocation Redirect
@@ -18,6 +18,3 @@ $GLOBALS['TL_DCA']['tl_settings']['fields']['geolocationRedirectKillQueryStr'] =
 	'inputType'               => 'checkbox',
 	'eval'                    => array('tl_class'=>'m12 w50')
 );
-
-
-?>

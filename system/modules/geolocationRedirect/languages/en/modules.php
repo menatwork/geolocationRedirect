@@ -1,4 +1,4 @@
-<?php if (!defined('TL_ROOT')) die('You can not access this file directly!');
+<?php
 
 /**
  * Geolocation Redirect
@@ -11,5 +11,3 @@
  */
 
 $GLOBALS['TL_LANG']['MOD']['geolocation_redirect'] = array('Geolocation Redirects', 'Redirects of given URLs and sets the users country.');
-
-?>

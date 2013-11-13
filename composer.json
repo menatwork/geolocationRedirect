@@ -1,0 +1,55 @@
+{
+	"name":"menatwork/geolocationredirect",
+	"description":"Flexible URL-based redirection with setting geo information automatically",
+	"keywords":["geolocation","detection","protection","countries","redirect"],
+	"type":"contao-module",
+	"homepage":"http://www.men-at-work.de",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Andreas Isaak",
+			"email":"isaak@men-at-work.de",
+			"homepage":"http://www.men-at-work.de",
+			"role":"Developer"
+		},
+		{
+			"name":"Stefan Heimes",
+			"email":"heimes@men-at-work.de",
+			"homepage":"http://www.men-at-work.de",
+			"role":"Developer"
+		},
+		{
+			"name":"David Maack",
+			"email":"maack@men-at-work.de",
+			"homepage":"http://www.men-at-work.de",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"email":"contao@men-at-work.de",
+		"issues":"https://github.com/menatwork/geolocationRedirect/issues",
+		"irc":"irc://irc.freenode.org/contao.dev",
+		"source":"https://github.com/menatwork/geolocationRedirect"
+	},
+	"require":{
+		"php":">=5.3",
+		"contao/core":">=2.11,<4",
+		"contao-community-alliance/composer-installer":"*",
+		"menatwork/geolocation":"1.1.*",
+		"menatwork/geoprotection":"1.1.*",
+		"bit3/contao-domainlink":"1.5.*"
+	},
+	"autoload":{
+		"classmap":["system/"]
+	},
+	"replace":{
+		"contao-legacy/geolocationredirect":"*"
+	},
+	"extra":{
+		"contao":{
+			"sources":{
+				"system/modules/geolocationRedirect":"system/modules/geolocationRedirect"
+			}
+		}
+	}
+}
