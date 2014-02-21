@@ -35,8 +35,8 @@
 		"php":">=5.3",
 		"contao/core":">=2.11,<4",
 		"contao-community-alliance/composer-installer":"*",
-		"menatwork/geolocation":"1.1.*",
-		"menatwork/geoprotection":"1.1.*",
+		"menatwork/geolocation":"1.*",
+		"menatwork/geoprotection":"1.*",
 		"bit3/contao-domainlink":"1.5.*"
 	},
 	"autoload":{
