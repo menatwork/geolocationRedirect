@@ -1,12 +1,11 @@
-<?php
+<?php 
 
 /**
- * Geolocation Redirect
- * 
- * @copyright 	MEN AT WORK 2013
- * @author      Stefan Heimes <cms@men-at-work.de>
- * @license    	LGPL
- * @package 	GeolocationRedirect
+ * Contao Open Source CMS
+ *
+ * @copyright  MEN AT WORK 2014
+ * @package    geolocationRedirect
+ * @license    GNU/LGPL 
  * @filesource
  */
 
