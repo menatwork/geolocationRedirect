@@ -49,6 +49,12 @@
 		"contao":{
 			"sources":{
 				"system/modules/geolocationRedirect":"system/modules/geolocationRedirect"
+			},
+			"transifex": {
+				"project": "geolocationredirect",
+				"prefix": "",
+				"languages_cto": "system/modules/geolocationRedirect/languages",
+				"languages_tx": ".tx"
 			}
 		}
 	}
